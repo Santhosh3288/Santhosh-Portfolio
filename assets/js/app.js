@@ -38,7 +38,7 @@ document.getElementById('contact-form').addEventListener('submit',(e)=>{
         email_id: document.getElementById('email_id').value,
         message: document.getElementById('message').value
     }
-    emailjs.send("service_59chgtn","template_8z6zpql",params).then(()=>{
+    emailjs.send("service_shlb67a","template_pfn7d0m",params).then(()=>{
         document.querySelector('.thank-you-msg').style.display = "block";
         document.getElementById('full_name').value = ""
         document.getElementById('email_id').value = ""
